@@ -1,5 +1,5 @@
 swagger: "2.0"
-x-zally-ignore: 215, 171, 224, 104, 105, 118, 110
+x-zally-ignore: [215, 171, 224, 104, 105, 118, 110]
 info:
   title: Partner Service Adapter
   description: |
