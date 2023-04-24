@@ -1,0 +1,12 @@
+name: Lint file when push
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  call-linter:
+    uses: cekinmezyucel/zally/.github/workflows/validation-check-with-cli.yml@main
+    with:
+      file-path: api_spa.yaml
+    secrets: inherit
