@@ -1,4 +1,4 @@
-name: Lint file when push
+name: Lint API Specification File
 
 on:
   push:
