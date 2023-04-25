@@ -8,5 +8,5 @@ jobs:
   call-linter:
     uses: cekinmezyucel/zally/.github/workflows/validation-check-with-cli.yml@main
     with:
-      file-path: example_api.yaml
+      file-path: api/example_api.yaml
     secrets: inherit
